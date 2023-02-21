@@ -27,8 +27,8 @@ const checkWin = ()=>{
         if((boxTexts[e[0]].innerText === boxTexts[e[1]].innerText)&&(boxTexts[e[1]].innerText === boxTexts[e[2]].innerText)&&(boxTexts[e[0]].innerText!=="")){
             document.querySelector(".info").innerText = boxTexts[e[0]].innerText + " Won";
             gameOver = true;
-            document.querySelector(".line").style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`;
             document.querySelector(".line").style.width = "29vh";
+            document.querySelector(".line").style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`;
         }
     })
 }
@@ -59,4 +59,5 @@ reset.addEventListener('click', ()=>{
         boxText.innerText = "";
     })
     document.getElementsByClassName("info")[0].innerText = "Turn for " + turn; 
+    document.querySelector(".line").style.width = "0vh";
 })

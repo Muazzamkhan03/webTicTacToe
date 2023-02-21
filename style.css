@@ -25,6 +25,7 @@ nav ul{
 .gameContainer{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 4vh;
     position: relative;
 }
