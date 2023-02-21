@@ -25,19 +25,20 @@ nav ul{
 .gameContainer{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 4vh;
 }
 
 .container{
     display: grid;
-    grid-template-columns: repeat(3,10vw);
-    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,13vh);
+    grid-template-rows: repeat(3,13vh);
     font-family: 'Roboto', sans-serif;
 }
 
 .box{
     border: 0.1vw solid black;
-    font-size: 8vw;
+    font-size: 8vh;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -50,18 +51,22 @@ nav ul{
 
 .infoBox{
     display: flex;
-    flex-flow: row;
-    padding: 2vw 2vw ;
-    font-size: 2vw;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    margin: 0 5vh;
+    padding: 2vh 3vh;
+    font-size: 2vh;
     font-family: 'Quicksand', sans-serif;
 }
 
 #reset{
     cursor: pointer;
-    margin: 0 2vh;
+    margin: 2vh 2vh;
     padding: 0.4vw 1vw;
     background-color: rgb(237, 242, 230);
     border-radius: 0.4vw;
+    font-size: 1.5vh;
     font-family: 'Shantell Sans', cursive;
 }
 
@@ -79,4 +84,13 @@ nav ul{
 
 .bl-0{
     border-left: 0;
+}
+
+@media screen and (max-width:950px){
+    .gameContainer{
+        flex-flow: column;
+    }
+    .infoBox{
+        margin-top: 3vh;
+    }
 }
