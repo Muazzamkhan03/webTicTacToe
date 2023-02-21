@@ -57,7 +57,13 @@ nav ul{
 
 #reset{
     cursor: pointer;
+    margin: 0 2vh;
+    padding: 0.4vw 1vw;
+    background-color: rgb(237, 242, 230);
+    border-radius: 0.4vw;
+    font-family: 'Shantell Sans', cursive;
 }
+
 .bt-0{
     border-top: 0;
 }
