@@ -25,15 +25,25 @@ nav ul{
 .gameContainer{
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 4vh;
+    position: relative;
 }
 
+.line{
+    background-color: rgb(28, 203, 28);
+    width: 0vh;
+    height: 0.3vh;
+    position: absolute;
+    left: 0;
+    transition: width 1s ease-in-out;
+    
+}
 .container{
     display: grid;
     grid-template-columns: repeat(3,13vh);
     grid-template-rows: repeat(3,13vh);
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
 .box{
