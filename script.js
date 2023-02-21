@@ -50,9 +50,11 @@ let reset = document.querySelector("#reset");
 reset.addEventListener('click', ()=>{
     let boxes = document.getElementsByClassName("box");
     gameOver = false;
+    turn = "X";
     document.getElementsByClassName("info")[0].innerText = "Turn for " + turn; 
     Array.from(boxes).forEach(element=>{
         let boxText = element.querySelector(".boxText");
         boxText.innerText = "";
     })
+    document.getElementsByClassName("info")[0].innerText = "Turn for " + turn; 
 })

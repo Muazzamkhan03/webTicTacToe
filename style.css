@@ -13,7 +13,7 @@ nav {
     height: 8vh;
     display: flex;
     align-items: center;
-    font-size: 2vw;
+    font-size: 4vh;
     padding: 0 2vw;
     font-family: 'Shantell Sans', cursive;
 }
@@ -52,6 +52,7 @@ nav ul{
     display: flex;
     flex-flow: row;
     padding: 2vw 2vw ;
+    font-size: 2vw;
     font-family: 'Quicksand', sans-serif;
 }
 
