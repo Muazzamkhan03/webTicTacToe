@@ -23,7 +23,6 @@ nav ul{
 }
 
 .gameContainer{
-    background-color: yellow;
     display: flex;
     justify-content: center;
     margin-top: 4vh;
@@ -54,4 +53,20 @@ nav ul{
     flex-flow: row;
     padding: 2vw 2vw ;
     font-family: 'Quicksand', sans-serif;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
 }
