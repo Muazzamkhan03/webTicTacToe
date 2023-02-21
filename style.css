@@ -55,6 +55,9 @@ nav ul{
     font-family: 'Quicksand', sans-serif;
 }
 
+#reset{
+    cursor: pointer;
+}
 .bt-0{
     border-top: 0;
 }
