@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -48,3 +49,9 @@ nav ul{
     background-color: rgb(189, 231, 189);
 }
 
+.infoBox{
+    display: flex;
+    flex-flow: row;
+    padding: 2vw 2vw ;
+    font-family: 'Quicksand', sans-serif;
+}
