@@ -45,3 +45,12 @@ Array.from(boxes).forEach(element=>{
         }
     })
 })
+
+let reset = document.querySelector("#reset");
+reset.addEventListener('click', ()=>{
+    let boxes = document.getElementsByClassName("box");
+    Array.from(boxes).forEach(element=>{
+        let boxText = element.querySelector(".boxText");
+        boxText.innerText = "";
+    })
+})
